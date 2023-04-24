@@ -1,0 +1,81 @@
+/* --- Reset --- */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+html {
+    color-scheme: dark light;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+img,
+picture,
+svg,
+video {
+    display: block;
+    max-width: 100%;
+}
+
+/* --- Reset --- */
+
+/* --- Variables --- */
+:root {
+    --bg-img-layer: -10;
+    --nav-layer: 10;
+
+}
+
+/* --- Variables --- */
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+    border-bottom: 2px solid black;
+    padding: 10px 10px;
+}
+
+.mainDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footerDiv {
+    display: flex;
+    justify-content: space-around;
+    background-color: gray;
+    padding: 10px 10px;
+}
+
+.mainDiv div {
+    flex: 300px 0 1;
+    margin: 55px;
+    border: 2px solid black;
+}
+
+.moreButton {
+    padding: 10px 30px;
+    position: absolute;
+    transform: translate(248%, -50%)
+}
+
+p {
+    padding: 30px 20px;
+}
