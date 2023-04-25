@@ -66,16 +66,20 @@ video {
 
 .mainDiv div {
     flex: 1 0 300px;
+    padding: 30px 20px;
     margin: 55px;
     border: 2px solid black;
+    position: relative;
 }
 
 .moreButton {
     padding: 10px 30px;
     position: absolute;
-    transform: translate(350%, -50%);
+    transform: translate(-50%, -50%);
+    bottom: -45px;
+    right: -100px;
 }
 
-p {
+/* p {
     padding: 30px 20px;
-}
+} */
